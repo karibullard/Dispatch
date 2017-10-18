@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Dispatch</string>
     <string name="title_activity_route_map">Route Map</string>
+    <string name="app_menu_home">Home</string>
+    <string name="app_menu_status">Update Status</string>
+    <string name="app_menu_roles">Manage User Roles</string>
+    <string name="app_menu_dispatch">Dispatch MCT</string>
 </resources>

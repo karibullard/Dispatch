@@ -105,9 +105,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
-                            startActivity(authenticationHandoff);
 
                             //todo pass off to next activity!
+                            startActivity(authenticationHandoff);
+
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
@@ -172,6 +173,5 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             mAuth.removeAuthStateListener(mAuthListener);
         }
     }
-
 }
 
